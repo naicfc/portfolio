@@ -6,8 +6,8 @@ const Resume = () => {
         <div className='max-w-[1000px] m-auto bg-[#4169e1] p-8 rounded-lg'>
             <div className='flex flex-col md:flex-row items-center justify-between gap-8 '>
                 <h2 className='text-[#ecf0f3]'>Take a look at my Resume.</h2>
-                <button type='submit' className='border-[#FFA500] w-3/6 md:w-2/6 text-center border-2 font-semibold p-3 text-sm lg:text-lg rounded-full cursor-pointer shadow-lg
-                hover:scale-105 hover:-translate-y1 hover:shadow-lg hover:-translate-y-[2px transition-all duration-200 text-[#FFA500]'>Download Resume</button>
+                <a href='https://drive.google.com/file/d/1ClIOxrd4CrS2Dx6M5SQEyyyiQqwU37Pe/view?usp=drivesdk' target={'_blank'}><button type='submit' className='border-[#FFA500] w-3/6 md:w-full text-center border-2 font-semibold p-3 text-sm lg:text-lg rounded-full cursor-pointer shadow-lg
+                hover:scale-105 hover:-translate-y1 hover:shadow-lg hover:-translate-y-[2px transition-all duration-200 text-[#FFA500]'>Download Resume</button></a>
             </div>
         </div>
     </div>
