@@ -14,10 +14,10 @@ const Services = () => {
             </div>
             <div className="lg:flex justify-center items-center gap-10">
                 <ServiceItem image={design} description='Creating elegant designs suited for your needs following core
-                design theory.' title='Beautiful Designs' tool1='Figma' tool2='Adobe' tool3='photoshop' />
-                <ServiceItem image={code} description='Do you hyave an idea for your next great website? Lets make it a reality.' title='Code your dream project' tool1='Figma' tool2='Adobe' tool3='photoshop' />
+                design theory.' title='Front-end Design' tool1='HTML + CSS' tool2='React Js' tool3='Node Js' />
+                <ServiceItem image={code} description='Do you hyave an idea for your next great website? Lets make it a reality.' title='Back-end Development' tool1='Node Js' tool2='Express js' tool3='Mongo DB' />
                 <ServiceItem image={consulting} description='Are you interested in feedback for your current project? I can
-                give you tips and tricks.' title='Beautiful Designs' tool1='Figma' tool2='Adobe' tool3='photoshop' />
+                give you tips and tricks.' title='Application Development' tool1='React Native' tool2='C#' tool3='Flutter' />
             </div>
         </div>
     </div>
