@@ -37,19 +37,19 @@ const Navbar = () => {
             <div>
                 <ul className='hidden md:flex'>
                     <Link href='/'>
-                      <li className='ml-10 text-sm font-semibold  hover:border-b hover:border-[#4169e1] hover:duration-500'>Home</li>
+                      <li className='ml-10 text-sm font-semibold uppercase  hover:border-b hover:border-[#4169e1] hover:duration-500'>Home</li>
                     </Link>
                     <Link href='/#skills'>
-                      <li className='ml-10 text-sm  font-semibold hover:border-b hover:border-[#4169e1]'>About</li>
+                      <li className='ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1]'>About</li>
                     </Link>
                     <Link href='/#services'>
-                      <li className='ml-10 text-sm  font-semibold hover:border-b hover:border-[#4169e1]'>Services</li>
+                      <li className='ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1]'>Services</li>
                     </Link>
                     <Link href='/#projects'>
-                      <li className='ml-10 text-sm  font-semibold hover:border-b hover:border-[#4169e1]'>Projects</li>
+                      <li className='ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1]'>Projects</li>
                     </Link>
                     <Link href='/#contact'>
-                      <li className='ml-10 text-sm  font-semibold hover:border-b hover:border-[#4169e1]'>Contact</li>
+                      <li className='ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1]'>Contact</li>
                     </Link>
                     <li><div className='ml-10 mt-1'><BsSun /></div></li>
                 </ul>
