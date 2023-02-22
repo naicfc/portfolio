@@ -34,7 +34,7 @@ function Contact() {
               </div>
             </div>
             <div className='p-4 w-[100%]'>
-              <form action="https://formsubmit.co/godfrednai@gmail.com" method="post">
+              <form action="https://formsubmit.co/406cefd417c7aaaaeaa7788497672e7d" method="post">
                 <div className="flex flex-col gap-4">
                 <input type='hidden' name="_captcha" value="false" />
                 <input type='hidden' name='_subject' value='You have a mail from your website'/>
