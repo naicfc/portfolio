@@ -33,7 +33,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>                    
-                    <div className='text-center text-gray-600 py-4'>
+                    <div className='text-center text-gray-600 p-4'>
                         All rights reserved | Copyright &copy;2023 GN
                     </div>
                 </div>
