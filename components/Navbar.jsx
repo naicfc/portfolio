@@ -28,7 +28,7 @@ const Navbar = () => {
   },[]);
 
   return (
-    <div className={shadow ? 'fixed w-full h-16 shadow-xl z-[100] p-8 bg-[#ecf0f3]' : 'fixed w-full h-16 z-[100] p-8'}>
+    <div className={shadow ? 'fixed w-full h-16 shadow-xl z-[100] py-8 px-16 bg-[#ecf0f3]' : 'fixed w-full h-16 z-[100] py-8 px-16'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
               <Image src={logo} alt="gan" className='w-28 h-auto' />
