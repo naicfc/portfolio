@@ -1,11 +1,9 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import Image from 'next/image'
 import web1 from '../public/assets/web1.png'
 import web4 from '../public/assets/web4.png'
 import web5 from '../public/assets/web5.png'
 import web6 from '../public/assets/web6.png'
-import Link from 'next/link'
 
 const Projects = () => {
   return (
@@ -20,7 +18,6 @@ const Projects = () => {
              <ProjectItem title='Project 4' backgroundImg={web6} projectUrl='/4' stack='React Js'/>
             </div>
         </div>
-
     </div>
   )
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import ServiceItem from './ServiceItem'
-import Image from 'next/image'
 import design from '../public/assets/design.png'
 import code from '../public/assets/code.png'
 import consulting from '../public/assets/consulting.png'

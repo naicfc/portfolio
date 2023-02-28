@@ -6,7 +6,6 @@ import { useEffect } from 'react'
 import {AiOutlineClose, AiOutlineMenu,AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn,FaTwitter,FaGithub} from 'react-icons/fa'
 import {BsSun} from 'react-icons/bs'
-import { BsMoon } from 'react-icons/bs'
 import logo from '../public/assets/GAN.png'
 
 const Navbar = () => {

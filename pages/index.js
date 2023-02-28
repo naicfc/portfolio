@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Navbar from '@/components/Navbar'
 import Main from '@/components/Main'
 import Skill from '@/components/Skill'
 import Projects from '@/components/Projects'
