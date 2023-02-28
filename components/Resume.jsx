@@ -2,17 +2,14 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div id='resume' className='w-full py-1 p-4 mt-8'>
-        <div className='max-w-[1200px] m-auto bg-[#4169e1] p-8 rounded-lg'>
-            <div className='flex flex-col md:flex-row items-center justify-between gap-8'>
-                <div>
-                  <h2 className='text-[#ecf0f3]'>Take a look at my Resume.</h2>
-                </div>
-                <div>  
-                  <a href='https://drive.google.com/file/d/1ClIOxrd4CrS2Dx6M5SQEyyyiQqwU37Pe/view?usp=drivesdk' target={'_blank'}><button type='submit' className='border-[#FFA500] w-[1/3] text-center border-2 font-semibold p-3 text-sm lg:text-lg rounded-full cursor-pointer shadow-lg
-                    hover:scale-105 hover:-translate-y1 hover:shadow-lg hover:-translate-y-[2px transition-all duration-200 text-[#FFA500]'>Download Resume</button></a>
-                </div>
+    <div id='resume' className=' bg-cover bg-[#4169e1] py-14'>
+        <div className="w-full">
+            <div className="text-center">
+                <h2 className='text-white font-semibold mb-2'>My Resume</h2>
+                <p className='text-white text-[20px] mb-4'>Take a look at my resume</p>
+                <a href='https://drive.google.com/file/d/1ClIOxrd4CrS2Dx6M5SQEyyyiQqwU37Pe/view?usp=drivesdk' target={'_blank'}><button type='submit' className=' tracking-widest cursor-pointer border-white border-2 py-2 px-8 shadow-none rounded-md text-sm font-semibold hover:bg-white hover:text-[#4169e1] ease-in duration-200'>Download</button></a>
             </div>
+
         </div>
     </div>
   )
