@@ -38,13 +38,13 @@ function Contact() {
                 <div className="flex flex-col gap-4">
                 <input type='hidden' name="_captcha" value="false" />
                 <input type='hidden' name='_subject' value='You have a mail from your website'/>
-                <label htmlfor='name' className='font-semibold text-gray-600'>Name</label>
+                <label htmlFor='name' className='font-semibold text-gray-600'>Name</label>
                 <input type="text" name="name" id="name" placeholder="Tyrion Lannister" className='bg-[#ecf0f3] border-gray-600 py-2 px-6 border-2 
                 rounded-lg focus:border-action w-full' required/>
-                <label htmlfor='email' className='font-semibold text-gray-600'>E-mail</label>
+                <label htmlFor='email' className='font-semibold text-gray-600'>E-mail</label>
                 <input type="email" name="email" id="email" placeholder="tyrionlannister@westeros.com" className='bg-[#ecf0f3] border-gray-600 py-2  px-6 border-2 
                 rounded-lg focus:border-action ' required/>
-                <label htmlfor='message' className='font-semibold text-gray-600'>Message</label>
+                <label htmlFor='message' className='font-semibold text-gray-600'>Message</label>
                 <textarea id="message" name='message' rows={3} cols={50} placeholder="Never forget what you are. The rest of the world will not. Wear it
                 like armor, and it can never be used to hurt you." className='bg-[#ecf0f3] border-gray-600 p-6 border-2 rounded-lg' required></textarea>
                 <button type='submit' className='border-none mt-4 md:w-3/6 text-center border-2 font-semibold p-3 w-full text-sm lg:text-lg rounded-full cursor-pointer

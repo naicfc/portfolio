@@ -19,10 +19,10 @@ const Scroll = () => {
   },[])
 
   return (
-    <div className={backToTop? 'hidden md:flex fixed bottom-5 right-10' : 'hidden'}>
+    <div className={backToTop? 'hidden md:flex fixed bottom-5 right-5 ease-in duration-500' : 'hidden'}>
         <Link href='/'>
-            <div className='rounded-md shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleUp size={20} color='#4169e1'/>
+            <div className='rounded-md bg-gray-800 p-3 cursor-pointer hover:scale-110'>
+                <HiOutlineChevronDoubleUp size={20} color='white'/>
             </div>
         </Link>
     </div>

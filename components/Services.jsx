@@ -7,7 +7,7 @@ import consulting from '../public/assets/consulting.png'
 
 const Services = () => {
   return (
-    <div id='services' className='w-full  text-center md:h-screen flex items-center justify-center py-16 '>
+    <div id='services' className='w-full  text-center lg:h-screen flex items-center justify-center py-16 '>
         <div className='max-w-[1240px] w-full mx-auto p-4 '>
             <div>
             <p className='text-center font-semibold uppercase text-xl tracking-widest text-[#4169e1]'>Services i offer</p>
