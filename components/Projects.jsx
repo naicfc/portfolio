@@ -7,7 +7,7 @@ import web6 from '../public/assets/web6.png'
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full pt-16'>
+    <div id='projects' className='w-full pt-16 bg-white'>
         <div className='max-w-[1240px] mx-auto px-2 py-16 text-center md:mb-16'>
             <p className='text-xl tracking-widest uppercase font-semibold text-[#4169e1]'>Projects</p>
             <h2 className='py-4'>What i built</h2>

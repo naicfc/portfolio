@@ -9,9 +9,9 @@ const Services = () => {
     <div id='services' className='w-full  text-center lg:h-screen flex items-center justify-center py-16 '>
         <div className='max-w-[1240px] w-full mx-auto p-4 '>
             <div>
-            <p className='text-center font-semibold uppercase text-xl tracking-widest text-[#4169e1]'>Services i offer</p>
+            <p className='text-center font-semibold uppercase text-xl tracking-widest text-[#4169e1]'>Services</p>
             </div>
-            <div className="lg:flex justify-center items-center gap-10">
+            <div className="lg:flex justify-center items-center gap-4">
                 <ServiceItem image={design} description='Creating elegant designs suited for your needs following core
                 design theory.' title='Front-end Design' tool1='HTML + CSS' tool2='React Js' tool3='Node Js' />
                 <ServiceItem image={code} description='Do you hyave an idea for your next great website? Lets make it a reality.' title='Back-end Development' tool1='Node Js' tool2='Express js' tool3='Mongo DB' />
