@@ -2,25 +2,25 @@ import React from 'react'
 
 function Skill() {
   return (
-    <div id='skills' className='w-full md:h-screen p-4 flex items-center justify-center py-16 bg-white'>
+    <div id='skills' className='w-full md:h-screen p-4 flex items-center justify-center py-16 bg-white dark:bg-black'>
         <div className='max-w-[1240px]  md:grid md:gap-0 sm:grid-cols-2 gap-12'>
             <div className='mb-12'>
                 <div>
                     <p className='text-center md:text-left font-semibold md:pl-8 uppercase text-xl tracking-widest text-[#4169e1]'>Skills</p>
                 </div>
                 <div className='fade-in mt-12 grid grid-flow-row grid-rows-3 grid-cols-4 gap-2 justify-items-center items-center'>
-                    <img className=' w-12 h-auto' src='/assets/html.svg'/> 
-                    <img className=' w-12 h-auto' src='/assets/css.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/express.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/next-js.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/react.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/tailwind.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/node.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/git.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/javascript.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/github.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/flutter.svg'/>  
-                    <img className=' w-12 h-auto' src='/assets/firebase.svg'/>         
+                    <img className=' w-12 h-auto' src='/assets/skills/html.svg'/> 
+                    <img className=' w-12 h-auto' src='/assets/skills/css.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/express.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/next-js.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/react.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/tailwind.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/node.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/git.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/javascript.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/github.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/flutter.svg'/>  
+                    <img className=' w-12 h-auto' src='/assets/skills/firebase.svg'/>         
                 </div>
             </div>
             <div className='flex flex-col md:flex-row gap-8'>
