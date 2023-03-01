@@ -25,6 +25,6 @@ html{
         @apply cursor-pointer
     }
     button{
-        @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-teal-600 to-teal-300 text-white
+        @apply shadow-lg dark:shadow-none shadow-gray-400 rounded-xl uppercase text-white
     }
 }
