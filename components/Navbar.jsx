@@ -6,11 +6,15 @@ import { useEffect } from 'react'
 import {AiOutlineClose, AiOutlineMenu,AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn,FaTwitter,FaGithub} from 'react-icons/fa'
 import {BsSun} from 'react-icons/bs'
+import {BsMoonFill} from 'react-icons/bs'
 import logo from '../public/assets/GAN.png'
+import ThemeButton from './ThemeButton'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
 
   const handleNav= ()=>{
     setNav(!nav)
@@ -27,6 +31,10 @@ const Navbar = () => {
     window.addEventListener('scroll', handleShadow)
   },[]);
 
+  useEffect(()=>
+    setMounted(true),[]
+  );
+
   return (
     <div className={shadow ? 'fixed w-full h-16 shadow-xl z-[100] py-8 px-16 bg-[#ecf0f3]' : 'fixed w-full h-16 z-[100] py-8 px-16'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
@@ -34,7 +42,7 @@ const Navbar = () => {
               <Image src={logo} alt="gan" className='w-28 h-auto' />
             </Link>
             <div>
-                <ul className='hidden md:flex'>
+                <ul className='hidden md:flex md:items-center'>
                     <Link href='/'>
                       <li className='ml-10 text-sm font-semibold uppercase  hover:border-b hover:border-[#4169e1] hover:duration-500'>Home</li>
                     </Link>
@@ -50,7 +58,7 @@ const Navbar = () => {
                     <Link href='/#contact'>
                       <li className='ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1]'>Contact</li>
                     </Link>
-                    <li><div className='ml-10 mt-1'><BsSun /></div></li>
+                    <li><div className='ml-10'>{mounted && <ThemeButton />}</div></li>
                 </ul>
                 <div onClick={handleNav} className=' md:hidden cursor-pointer'>
                   <AiOutlineMenu size={25}/>
