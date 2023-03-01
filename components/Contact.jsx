@@ -47,7 +47,7 @@ function Contact() {
                 <label htmlFor='message' className='font-semibold text-gray-600'>Message</label>
                 <textarea id="message" name='message' rows={3} cols={50} placeholder="Never forget what you are. The rest of the world will not. Wear it
                 like armor, and it can never be used to hurt you." className='bg-[#ecf0f3] border-gray-600 p-6 border-2 rounded-lg' required></textarea>
-                <button type='submit' className='border-none mt-4 md:w-3/6 text-center border-2 font-semibold p-3 w-full text-sm lg:text-lg rounded-full cursor-pointer
+                <button type='submit' className='border-none mt-4 md:w-3/6 text-center border-2 font-semibold p-3 w-full text-sm lg:text-lg rounded-md cursor-pointer
                 hover:scale-105 hover:-translate-y1 hover:shadow-lg hover:-translate-y-[2px transition-all duration-200 bg-[#4169e1] '>Send</button>
                 </div>
               </form>
