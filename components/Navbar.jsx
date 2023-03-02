@@ -34,7 +34,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className={shadow ? 'fixed w-full h-16 shadow-xl z-[100] py-8 px-8 xl:px-16 bg-[#ecf0f3] dark:bg-[#020c16]' : 'fixed w-full h-16 z-[100] py-8 px-8 xl:px-16 '}>
+    <div className={shadow ? 'fixed w-full h-16 shadow-xl z-[100] py-8 px-8 xl:px-16 bg-[#ecf0f3] dark:bg-[#031629]' : 'fixed w-full h-16 z-[100] py-8 px-8 xl:px-16 '}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
               <Image src={logo} alt="gan" className='w-28 h-auto' />
@@ -83,6 +83,7 @@ const Navbar = () => {
             </div>
             <div className='py-4 flex-col'>
               <ul className='uppercase'>
+              <li onClick={()=>setNav(false)} className='cursor-default'><div className='flex items-center'>{mounted && <ThemeButton />}</div></li>
                 <Link href='/'>
                 <li onClick={()=>setNav(false)} className='py-4 text-sm dark:text-white'>Home</li>
                 </Link>
@@ -90,7 +91,7 @@ const Navbar = () => {
                 <li onClick={()=>setNav(false)} className='py-4 text-sm dark:text-white'>About</li>
                 </Link>
                 <Link href='/#services'>
-                <li onClick={()=>setNav(false)} className='py-4 text-sm dark:text-white'>Skills</li>
+                <li onClick={()=>setNav(false)} className='py-4 text-sm dark:text-white'>Services</li>
                 </Link>
                 <Link href='/#projects'>
                 <li onClick={()=>setNav(false)} className='py-4 text-sm dark:text-white'>Projects</li>
