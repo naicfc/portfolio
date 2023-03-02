@@ -30,20 +30,23 @@ function Skill() {
                     <p className='text-center md:text-left font-semibold uppercase text-xl tracking-widest text-[#4169e1] dark:text-white'>About</p>
                 </div>
                 <div className='fade-in mt-12 space-y-3 text-justify '>
-                    <p className='text-gray-600 dark:text-white'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                 sed do eiusmod tempor incididunt ut labore et dolore 
-                 magna aliqua."
-                 <br></br>
-                 <br></br>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                 sed do eiusmod tempor incididunt ut labore et dolore 
-                 magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                 exercitation ullamco laboris nisi ut aliquip ex ea 
-                 commodo consequat. Duis aute irure dolor in reprehenderit 
-                 in voluptate velit esse cillum dolore eu fugiat nulla 
-                 pariatur.Ut enim ad minim veniam, quis nostrud 
-                 exercitation ullamco laboris nisi ut aliquip ex ea 
-                 commodo consequat. 
+                    <p className='text-gray-600 dark:text-white'>
+                        As a software developer, I am a skilled professional who
+                        specializes in designing, developing, and testing software
+                        applications. I have a deep understanding of programming 
+                        languages, software frameworks, and development 
+                        methodologies.
+                        <br></br>
+                        <br></br>
+                        My work involves collaborating with other
+                        developers, project managers, and stakeholders to create
+                        innovative software solutions that meet the needs of
+                        end-users. I have a keen eye for detail, strong 
+                        problem-solving skills, and the ability to think 
+                        creatively. I am constantly learning and staying up-to-date
+                        with the latest trends and technologies in my field, 
+                        and am driven by a passion for creating software that makes
+                        a difference in people's lives. 
                  <br></br>
                  <br></br> 
                  </p>
