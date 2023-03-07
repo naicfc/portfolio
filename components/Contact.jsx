@@ -16,16 +16,16 @@ function Contact() {
                     <div className='pt-4'>
                       <p className='uppercase font-bold tracking-widest text-[#4169e1]'>connect with me.</p>
                       <div className='flex items-center justify-start my-4 w-full '>
-                        <div className='rounded-full shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
                           <FaLinkedinIn />
                         </div>
-                        <div className='rounded-full shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
                           <FaGithub className=''/>
                         </div>
-                        <div className='rounded-full shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
                           <FaTwitter className='text-blue' />
                         </div>
-                        <div className='rounded-full shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>
                           <AiOutlineMail />
                         </div>                
                       </div>
