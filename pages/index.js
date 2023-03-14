@@ -1,16 +1,16 @@
-import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import Main from '@/components/Main'
-import Skill from '@/components/Skill'
-import Projects from '@/components/Projects'
-import Services from '@/components/Services'
-import Contact from '@/components/Contact'
-import Resume from '@/components/Resume'
-import Scroll from '@/components/Scroll'
-import Footer from '@/components/Footer'
-import Portfolio from '@/components/Portfolio'
+import Head from "next/head";
+import { Inter } from "@next/font/google";
+import Main from "@/components/Main";
+import Skill from "@/components/Skill";
+import Projects from "@/components/Projects";
+import Services from "@/components/Services";
+import Contact from "@/components/Contact";
+import Resume from "@/components/Resume";
+import Scroll from "@/components/Scroll";
+import Footer from "@/components/Footer";
+import Portfolio from "@/components/Portfolio";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -23,12 +23,12 @@ export default function Home() {
       </Head>
       <Main />
       <Skill />
-      <Services/> 
+      <Services />
       <Portfolio />
       <Resume />
       <Contact />
       <Scroll />
       <Footer />
     </>
-  )
+  );
 }
