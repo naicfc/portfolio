@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skill() {
   return (
-    <div id='skills' className='w-full p-4 flex items-center justify-center py-16 bg-white dark:bg-[#102A43] '>
+    <div id='skills' className='w-full xl:h-screen p-4 flex items-center justify-center py-16 bg-white dark:bg-[#102A43] '>
         <div className='max-w-[1240px]  xl:grid md:gap-0 sm:grid-cols-2 gap-12'>
             <div className='mb-12'>
                 <div>
