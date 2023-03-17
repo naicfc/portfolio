@@ -19,22 +19,22 @@ const Services = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-8">
           <ServiceItem
             image={front}
-            description="Creating elegant designs suited for your needs following core design theory."
+            description="I design and develop intuitive and responsive front-end interfaces for seamless user experiences."
             title="Front-End Design"
           />
           <ServiceItem
             image={back}
-            description="Do you hyave an idea for your next great website? Lets make it a reality."
+            description="I provide robust and scalable back-end solutions to power your application's and services."
             title="Back-End Development"
           />
           <ServiceItem
             image={mobile}
-            description="Are you interested in feedback for your current project? I can give you tips and tricks."
+            description="I craft user-friendly and feature-rich mobile apps for Android and iOS platforms."
             title="Application Development"
           />
           <ServiceItem
             image={support}
-            description="Are you interested in feedback for your current project? I can give you tips and tricks."
+            description="Efficient and reliable IT support for seamless technology operations."
             title="IT Support"
           />
         </div>
