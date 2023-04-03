@@ -26,16 +26,30 @@ function Main() {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 duration-500">
-              <FaLinkedinIn />
+              <a
+                href="https://linkedin.com/in/godfred-nai-84a822222"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaLinkedinIn />
+              </a>
             </div>
             <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 duration-500">
-              <FaGithub />
+              <a
+                href="https://github.com/naicfc"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaGithub />
+              </a>
             </div>
             <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 duration-500">
-              <FaTwitter />
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <FaTwitter />
+              </a>
             </div>
             <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 duration-500">
-              <AiOutlineMail />
+              <a href="http://godfrednai@gmail.com" target="_blank" rel="noopener noreferrer">
+                <AiOutlineMail />
+              </a>
             </div>
           </div>
         </div>
