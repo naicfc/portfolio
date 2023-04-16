@@ -32,6 +32,12 @@ html {
   button {
     @apply shadow-lg dark:shadow-none shadow-gray-400 rounded-xl uppercase text-white;
   }
+  .nav-link{
+    @apply p-2 text-sm font-semibold  hover:text-[#4169e1] hover:duration-500 dark:text-white;
+  }
+  .nav-icons{
+    @apply rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-300;
+  }
   .shuffle-item {
     padding: 0;
   }
