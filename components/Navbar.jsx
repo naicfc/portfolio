@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter, FaGithub, FaFile } from "react-icons/fa";
 import logo from "../public/assets/GAN.png";
 import ThemeButton from "./ThemeButton";
 
@@ -44,31 +44,27 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex md:items-center">
             <Link href="/">
-              <li className="ml-10 text-sm font-semibold uppercase  hover:border-b hover:border-[#4169e1] hover:duration-500 dark:text-white">
-                Home
-              </li>
+              <li className="nav-link">Home</li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1] dark:text-white">
-                About
-              </li>
+              <li className="nav-link">About</li>
             </Link>
             <Link href="/#services">
-              <li className="ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1] dark:text-white">
-                Services
-              </li>
+              <li className="nav-link">Services</li>
+            </Link>
+            <Link href="/#services">
+              <li className="nav-link">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1] dark:text-white">
-                Projects
-              </li>
+              <li className="nav-link">Projects</li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm  font-semibold uppercase hover:border-b hover:border-[#4169e1] dark:text-white">
-                Contact
-              </li>
+              <li className="nav-link">Contact</li>
             </Link>
-            <li className="cursor-default ml-10">
+            <Link href="/#contact">
+              <li className="nav-link">Resume</li>
+            </Link>
+            <li className="cursor-default ml-6">
               <div className="flex items-center">
                 {mounted && <ThemeButton />}
               </div>
@@ -160,16 +156,16 @@ const Navbar = () => {
                 Let's connect
               </p>
               <div className="flex items-center justify-between my-4 w-full">
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="nav-icons">
                   <FaLinkedinIn />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="nav-icons">
                   <FaGithub />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="nav-icons">
                   <FaTwitter />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="nav-icons">
                   <AiOutlineMail />
                 </div>
               </div>
