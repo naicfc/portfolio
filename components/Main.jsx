@@ -6,8 +6,8 @@ function Main() {
   return (
     <div
       id="main"
-      className="w-full h-screen text-center dark:bg-[#031629] dark:text-white">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      className="w-full h-screen my-auto text-center dark:bg-[#031629] dark:text-white">
+      <div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600 dark:text-white">
             Let's build something together
