@@ -5,7 +5,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaTwitter, FaGithub, FaFile } from "react-icons/fa";
-import logo from "../public/assets/GAN.png";
 import ThemeButton from "./ThemeButton";
 
 const Navbar = () => {
@@ -34,12 +33,12 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-16 shadow-xl z-[100] py-8 px-8 xl:px-16 bg-[#ecf0f3] dark:bg-[#031629]"
-          : "fixed w-full h-16 z-[100] py-8 px-8 xl:px-16 "
+          ? "fixed w-full h-16 shadow-xl z-[100] py-8 px-8 lg:px-32 bg-[#ecf0f3] dark:bg-[#031629]"
+          : "fixed w-full h-16 z-[100] py-8 px-8 lg:px-32 "
       }>
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <Link href="/">
-          <Image src={logo} alt="gan" className="w-28 h-auto" />
+          <div className="font-semibold text-2xl dark:text-white">Godfred.</div>
         </Link>
         <div>
           <ul className="hidden md:flex md:items-center">
@@ -83,18 +82,15 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#020c16] dark:text-white p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#020c16] dark:text-white p-10 ease-in-out duration-500"
+              : "fixed left-[-100%] top-0 p-10 ease-in-out duration-500"
           }>
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/GAN.png"
-                  width={87}
-                  height={35}
-                  alt="/"
-                />
+                <div className="font-semibold text-2xl dark:text-white">
+                  Godfred.
+                </div>
               </Link>
               <div
                 onClick={handleNav}
