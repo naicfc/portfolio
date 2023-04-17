@@ -10,9 +10,11 @@ import project6 from "../public/assets/projects/project6.jpg";
 
 const Portfolio = () => {
   return (
-    <div id="projects" className="min-h-screen p-8 xl:p-16 dark:bg-[#102A43]">
+    <div
+      id="projects"
+      className="min-h-screen px-8 lg:px-32 py-8 dark:bg-[#102A43]">
       <div className="text-center">
-        <p className="text-xl tracking-widest uppercase font-semibold text-[#4169e1] dark:text-white mt-8 mb-4">
+        <p className="text-xl tracking-widest uppercase font-semibold text-[#4169e1] dark:text-white  mb-4">
           Projects
         </p>
         <p className="text-gray-600 text-center mb-8 dark:text-white">
@@ -20,7 +22,7 @@ const Portfolio = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-1">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         <PortfolioItem image={project1} title="project 1" />
         <PortfolioItem image={project2} title="project 2" />
         <PortfolioItem image={project3} title="project 3" />

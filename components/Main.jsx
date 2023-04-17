@@ -6,10 +6,10 @@ function Main() {
   return (
     <div
       id="main"
-      className="w-full h-screen my-auto text-center dark:bg-[#031629] dark:text-white">
-      <div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center">
+      className="w-full h-screen my-auto px-8 lg:px-32 text-center dark:bg-[#031629] dark:text-white">
+      <div className="max-w-[1240px] w-full h-full mx-auto flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600 dark:text-white">
+          <p className="uppercase text-sm sm:mt-6 md:mt-0 tracking-widest text-gray-600 dark:text-white">
             Let's build something together
           </p>
           <h1 className="py-4 text-gray-700 dark:text-white">
@@ -18,7 +18,7 @@ function Main() {
           <h1 className="py-2 text-gray-700 dark:text-white">
             A Front-End Web Developer
           </h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto dark:text-white">
+          <p className="py-4 text-gray-600 md:max-w-[80%] m-auto hidden md:flex dark:text-white">
             I'm a front-end web developer specializing in building (and
             occasionally designing) exceptional digital experiences. Currently,
             I'm focused on building front-end web applications while learning
@@ -47,7 +47,10 @@ function Main() {
               </a>
             </div>
             <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 duration-500">
-              <a href="http://godfrednai@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="http://godfrednai@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer">
                 <AiOutlineMail />
               </a>
             </div>
