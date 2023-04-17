@@ -9,14 +9,14 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="w-full lg:h-screen flex items-center justify-center py-16 dark:bg-[#031629]">
-      <div className="max-w-[1240px] w-full mx-auto p-4 ">
+      className="w-full lg:h-screen flex items-center justify-center py-16 px-8 lg:px-32 dark:bg-[#102A43]">
+      <div className="max-w-[1240px] w-full mx-auto">
         <div className="mb-8">
           <p className="text-center font-semibold uppercase text-xl tracking-widest text-[#4169e1] dark:text-white">
             Services
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-8">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           <ServiceItem
             image={front}
             description="I design and develop intuitive and responsive front-end interfaces for seamless user experiences."

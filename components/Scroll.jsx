@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { HiOutlineChevronDoubleUp, HiArrowUp } from "react-icons/hi";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -25,7 +25,7 @@ const Scroll = () => {
       }>
       <Link href="/">
         <div className="rounded-md bg-gray-800 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
-          <HiOutlineChevronDoubleUp size={20} color="white" />
+          <HiArrowUp size={20} color="white" />
         </div>
       </Link>
     </div>

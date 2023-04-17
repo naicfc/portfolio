@@ -6,8 +6,8 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="w-full py-16 pt-20 dark:bg-[#031629] dark:text-white">
-      <div className="max-w-[1240px] m-auto px-2 w-full">
+      className="w-full py-16 pt-20 px-8 lg:px-32 dark:bg-[#102A43] dark:text-white">
+      <div className="max-w-[1240px] m-auto w-full">
         <p className="text-xl mb-2 tracking-widest uppercase font-semibold text-[#4169e1] text-center dark:text-white">
           Contact
         </p>
@@ -15,7 +15,7 @@ function Contact() {
           Fill out the form and i will reach out as soon as possible.
         </p>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 ">
-          <div className="w-full  p-8">
+          <div className="w-full">
             <div className="flex flex-col gap-2 ">
               <h2 className="lg:text-5xl mb-2 text-gray-700 dark:text-white">
                 Let's chat.<br></br> Tell me about your project.
@@ -44,7 +44,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="p-4 w-[100%]">
+          <div className="w-[100%]">
             <form
               action="https://formsubmit.co/406cefd417c7aaaaeaa7788497672e7d"
               method="post">
@@ -65,7 +65,7 @@ function Contact() {
                   name="name"
                   id="name"
                   placeholder="Tyrion Lannister"
-                  className="bg-[#ecf0f3] border-gray-600 py-2 px-6 border-2 dark:border-white dark:bg-[#031629]
+                  className="bg-[#ecf0f3] border-gray-600 py-2 px-6 border-2 dark:border-white dark:bg-[#102A43]
                   rounded-lg focus:border-action w-full"
                   required
                 />
@@ -79,7 +79,7 @@ function Contact() {
                   name="email"
                   id="email"
                   placeholder="tyrionlannister@westeros.com"
-                  className="bg-[#ecf0f3] border-gray-600 py-2  px-6 border-2 dark:border-white dark:bg-[#031629]
+                  className="bg-[#ecf0f3] border-gray-600 py-2  px-6 border-2 dark:border-white dark:bg-[#102A43]
                   rounded-lg focus:border-action "
                   required
                 />
@@ -95,7 +95,7 @@ function Contact() {
                   cols={50}
                   placeholder="Never forget what you are. The rest of the world will not. Wear it
                   like armor, and it can never be used to hurt you."
-                  className="bg-[#ecf0f3] border-gray-600 p-6 border-2 rounded-lg dark:border-white dark:bg-[#031629]"
+                  className="bg-[#ecf0f3] border-gray-600 p-6 border-2 rounded-lg dark:border-white dark:bg-[#102A43]"
                   required></textarea>
                 <button
                   type="submit"
