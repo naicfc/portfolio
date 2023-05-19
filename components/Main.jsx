@@ -9,7 +9,7 @@ function Main() {
       className="w-full h-screen my-auto px-8 lg:px-32 text-center dark:bg-[#031629] dark:text-white">
       <div className="max-w-[1240px] w-full h-full mx-auto flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm sm:mt-6 md:mt-0 tracking-widest text-gray-600 dark:text-white">
+          <p className="uppercase text-sm sm:mt-6 tracking-widest text-gray-600 dark:text-white">
             Let's build something together
           </p>
           <h1 className="py-4 text-gray-700 dark:text-white">

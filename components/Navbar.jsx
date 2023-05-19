@@ -45,13 +45,13 @@ const Navbar = () => {
             <Link href="/">
               <li className="nav-link">Home</li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#about">
               <li className="nav-link">About</li>
             </Link>
             <Link href="/#services">
               <li className="nav-link">Services</li>
             </Link>
-            <Link href="/#services">
+            <Link href="/#skills">
               <li className="nav-link">Skills</li>
             </Link>
             <Link href="/#projects">
@@ -59,9 +59,6 @@ const Navbar = () => {
             </Link>
             <Link href="/#contact">
               <li className="nav-link">Contact</li>
-            </Link>
-            <Link href="/#contact">
-              <li className="nav-link">Resume</li>
             </Link>
             <li className="cursor-default ml-6">
               <div className="flex items-center">

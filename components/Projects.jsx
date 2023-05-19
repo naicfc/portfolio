@@ -15,7 +15,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4 dark:text-white">What i built</h2>
-        <div className="grid md:grid-cols-2 gap-8 text-[#1e3068]">
+        <div className="grid md:grid-cols-3 gap-8 text-[#1e3068]">
           <ProjectItem
             title="Project 1"
             backgroundImg={web1}
