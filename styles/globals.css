@@ -41,9 +41,6 @@ html {
   .nav-icons {
     @apply rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-300;
   }
-  .shuffle-item {
-    padding: 0;
-  }
 
   .shuffle-item .project-img-container {
     position: relative;

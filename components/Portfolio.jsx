@@ -22,7 +22,7 @@ const Portfolio = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-16">
+      <div className="grid md:grid-cols-3 gap-8">
         <PortfolioItem image={project1} title="project 1" />
         <PortfolioItem image={project2} title="project 2" />
         <PortfolioItem image={project3} title="project 3" />

@@ -4,8 +4,8 @@ import web1 from "../public/assets/projects/project4.jpg";
 
 const PortfolioItem = ({ image, title }) => {
   return (
-    <div className="p-0 shuffle-item">
-      <div className="project-img-container">
+    <div className="shuffle-item">
+      <div className="project-img-container h-48">
         <a className="gallery-popup" href="">
           <Image src={image} alt="" />
         </a>
