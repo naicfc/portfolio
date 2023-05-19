@@ -11,13 +11,13 @@ const PortfolioItem = ({ image, title }) => {
         </a>
         <div className="project-item-info">
           <div className="project-item-info-content">
-            <h2 className="project-item-title">
-              <a href="" className="uppercase">
-                {title}
-              </a>
+            <h2 className="uppercase font-semibold text-lg text-white">
+              {title}
             </h2>
             <a>
-              <p className="project-cat cursor-pointer">More Info</p>
+              <p className="project-cat cursor-pointer py-2 px-3 text-sm">
+                View Project
+              </p>
             </a>
           </div>
         </div>
