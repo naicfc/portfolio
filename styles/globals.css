@@ -36,7 +36,7 @@ html {
     @apply shadow-lg dark:shadow-none shadow-gray-400 rounded-xl uppercase text-white;
   }
   .nav-link {
-    @apply p-2 text-sm  text-gray-700 hover:text-[#4169e1] hover:duration-500 dark:text-white;
+    @apply p-2   text-gray-700 hover:text-[#4169e1] hover:duration-500 dark:text-white;
   }
   .nav-icons {
     @apply rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-300;
@@ -84,7 +84,7 @@ html {
     right: 0;
     z-index: 1;
     padding: 5px 12px;
-    background: #ffb600;
+    background: #4169e1;
     color: #fff;
     opacity: 0;
     -webkit-transform: perspective(1px) scale3d(0, 0, 0);
@@ -118,8 +118,7 @@ html {
 
   .shuffle-item
     .project-img-container
-    .project-item-info-content
-    .project-item-title {
+    .project-item-info-content {
     font-size: 20px;
   }
 
@@ -131,20 +130,12 @@ html {
     color: #fff;
   }
 
-  .shuffle-item
-    .project-img-container
-    .project-item-info-content
-    .project-item-title
-    a:hover {
-    color: #ffb600;
-  }
+  
 
   .shuffle-item .project-img-container .project-item-info-content .project-cat {
-    background: #ffb600;
+    background: #4169e1;
     display: inline-block;
-    padding: 4px 10px;
-    font-weight: 700;
-    color: #000;
+    color: #fff;
     font-size: 15px;
   }
 
