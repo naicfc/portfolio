@@ -17,7 +17,7 @@ function Contact() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 ">
           <div className="w-full">
             <div className="flex flex-col gap-2 ">
-              <h2 className="lg:text-5xl mb-2 text-gray-700 dark:text-white">
+              <h2 className="lg:text-4xl mb-2 text-gray-700 dark:text-white">
                 Let's chat.<br></br> Tell me about your project.
               </h2>
               <p className="text-gray-600 mb-8 dark:text-white">
@@ -28,16 +28,16 @@ function Contact() {
                   connect with me.
                 </p>
                 <div className="flex items-center justify-start my-4 w-full ">
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub className="" />
                   </div>
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaTwitter className="text-blue" />
                   </div>
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-4 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </div>
@@ -48,7 +48,7 @@ function Contact() {
             <form
               action="https://formsubmit.co/406cefd417c7aaaaeaa7788497672e7d"
               method="post">
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-2">
                 <input type="hidden" name="_captcha" value="false" />
                 <input
                   type="hidden"
