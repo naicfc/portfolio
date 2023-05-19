@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="w-full lg:h-screen flex items-center justify-center py-16 px-8 lg:px-32 dark:bg-[#102A43]">
+      className="w-full lg:h-screen flex  items-center justify-center py-16 px-8 lg:px-32 dark:bg-[#102A43]">
       <div className="max-w-[1240px] w-full mx-auto">
         <div className="mb-8">
           <p className="text-center font-semibold uppercase text-xl tracking-widest text-[#4169e1] dark:text-white">
