@@ -7,6 +7,7 @@ import Contact from "@/components/Contact";
 import Scroll from "@/components/Scroll";
 import Footer from "@/components/Footer";
 import Portfolio from "@/components/Portfolio";
+import About from "@/components/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +22,9 @@ export default function Home() {
         <link rel="icon" href="/assets/icon.svg" />
       </Head>
       <Main />
-      <Skill />
+      <About />
       <Services />
+      <Skill />
       <Portfolio />
       <Contact />
       <Scroll />
