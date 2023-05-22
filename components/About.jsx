@@ -11,10 +11,10 @@ const Resume = () => {
         <Image src={profile} alt="" />
       </div>
       <div className="w-full text-center md:text-left">
-        <h3 className="mb-4 uppercase text-gray-700 font-semibold">
+        <h3 className="mb-4 uppercase text-gray-700 font-semibold dark:text-white">
           A Little About Myself
         </h3>
-        <p className=" mb-8 text-gray-600 text-sm">
+        <p className=" mb-8 text-gray-600 text-sm leading-6 dark:text-white">
           As a software developer, I am a skilled professional who specializes
           in designing, developing, and testing software applications.
           {/*I have a deep understanding of programming languages, software frameworks, and
@@ -28,7 +28,7 @@ const Resume = () => {
           target={"_blank"}>
           <button
             type="submit"
-            className="cursor-pointer py-2 px-4 shadow-none rounded-md text-sm hover:bg-white hover:text-[#4169e1] bg-[#4169e1] ease-in duration-200">
+            className="cursor-pointer py-2 px-4 shadow-none rounded-md text-xs font-semibold hover:bg-[#2651d3] bg-[#4169e1] ease-in duration-200 tracking-wide">
             Download resume
           </button>
         </a>
