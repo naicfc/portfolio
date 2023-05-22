@@ -22,7 +22,7 @@ html {
   h6 {
     @apply font-bold;
   }
-
+ 
   h1 {
     @apply text-4xl sm:text-5xl md:text-6xl;
   }
