@@ -38,7 +38,7 @@ const Navbar = () => {
       }>
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <Link href="/">
-          <div className="font-semibold text-2xl dark:text-white">Godfred.</div>
+          <div className="font-semibold text-2xl dark:text-white">Nai.</div>
         </Link>
         <div>
           <ul className="hidden md:flex md:items-center">
@@ -67,32 +67,34 @@ const Navbar = () => {
             </li>
           </ul>
           <div onClick={handleNav} className=" md:hidden cursor-pointer">
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25} className="dark:text-white"/>
           </div>
         </div>
       </div>
 
       <div
         className={
-          nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav
+            ? " md:hidden fixed right-0 top-0 w-full h-screen bg-black/70 ease-in duration-1000"
+            : "bg-transparent ease-out duration-1000"
         }>
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#020c16] dark:text-white p-10 ease-in-out duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in-out duration-500"
+              ? " fixed right-0 top-0 w-[75%] sm:w-[50%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#020c16] dark:text-white p-10 ease-out duration-1000"
+              : "fixed right-[-100%] w-[75%] sm:w-[50%] md:w-[45%] w top-0 p-10 duration-1000"
           }>
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <div className="font-semibold text-2xl dark:text-white">
-                  Godfred.
+                  Nai.
                 </div>
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 dark:shadow-md p-3 cursor-pointer">
-                <AiOutlineClose />
+                className="rounded-full p-3 cursor-pointer">
+                <AiOutlineClose size={18} />
               </div>
             </div>
             <div className="border-b border-gray my-4 ">
@@ -104,9 +106,7 @@ const Navbar = () => {
           <div className="py-4 flex-col">
             <ul className="uppercase">
               <li onClick={() => setNav(false)} className="cursor-default">
-                <div className="flex items-center">
-                  {mounted && <ThemeButton />}
-                </div>
+                  {mounted && <ThemeButton/>}
               </li>
               <Link href="/">
                 <li
@@ -144,25 +144,6 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-4">
-              <p className="uppercase font-bold tracking-widest text-[#4169e1] dark:text-white">
-                Let's connect
-              </p>
-              <div className="flex items-center justify-between my-4 w-full">
-                <div className="nav-icons">
-                  <FaLinkedinIn />
-                </div>
-                <div className="nav-icons">
-                  <FaGithub />
-                </div>
-                <div className="nav-icons">
-                  <FaTwitter />
-                </div>
-                <div className="nav-icons">
-                  <AiOutlineMail />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
