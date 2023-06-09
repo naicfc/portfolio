@@ -9,7 +9,7 @@ const ThemeButton = () => {
     <button
       aria-label="Toogle dark mode"
       type="button"
-      className=""
+      className="w-full shadow-none border-none"
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}>
       {resolvedTheme === "dark" ? <BsSun /> : <BsMoonFill color="black" />}
     </button>
