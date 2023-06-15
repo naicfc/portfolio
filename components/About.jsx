@@ -3,6 +3,10 @@ import Image from "next/image";
 import profile from "../public/assets/dev-ed-wave.png";
 
 const Resume = () => {
+
+  function buttonCheck (){
+    console.log("resume button clicked")
+  }
   return (
     <div
       id="about"
@@ -28,6 +32,7 @@ const Resume = () => {
           target={"_blank"}>
           <button
             type="submit"
+            onClick={buttonCheck}
             className="cursor-pointer py-2 px-4 shadow-none rounded-md text-xs font-semibold hover:bg-[#2651d3] bg-[#4169e1] ease-in duration-200 tracking-wide">
             Download resume
           </button>

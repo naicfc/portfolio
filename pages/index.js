@@ -8,6 +8,7 @@ import Scroll from "@/components/Scroll";
 import Footer from "@/components/Footer";
 import Portfolio from "@/components/Portfolio";
 import About from "@/components/About";
+import Service from "@/components/Service";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
       </Head>
       <Main />
       <About />
+      <Service />
       <Services />
       <Skill />
       <Portfolio />

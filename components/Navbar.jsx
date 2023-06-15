@@ -82,7 +82,7 @@ const Navbar = () => {
           className={
             nav
               ? " fixed right-0 top-0 w-[75%] sm:w-[50%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#020c16] dark:text-white p-10 ease-out duration-1000"
-              : "fixed right-[-100%] w-[75%] sm:w-[50%] md:w-[45%] w top-0 p-10 duration-1000"
+              : "fixed right-[-100%] w-[75%] sm:w-[50%] md:w-[45%] w top-0 p-10 duration-1000 h-screen"
           }>
           <div>
             <div className="flex w-full items-center justify-between">
