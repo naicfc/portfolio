@@ -1,6 +1,12 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaGithub,
+  FaPhone,
+  FaLocationArrow,
+  FaInstagram,
+} from "react-icons/fa";
 
 function Contact() {
   return (
@@ -8,7 +14,7 @@ function Contact() {
       id="contact"
       className="w-full py-16 pt-20 px-8 lg:px-32 dark:bg-[#102A43] dark:text-white">
       <div className="max-w-[1240px] m-auto w-full">
-        <p className="text-xl mb-2 tracking-widest uppercase font-semibold text-[#4169e1] text-center dark:text-white">
+        <p className="text-xl mb-2 tracking-widest uppercase font-semibold text-gray-700 text-center dark:text-white">
           Contact
         </p>
         <p className="text-gray-600 text-center mb-8 dark:text-white">
@@ -17,28 +23,32 @@ function Contact() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 ">
           <div className="w-full">
             <div className="flex flex-col gap-2 ">
-              <h2 className="lg:text-4xl mb-2 text-gray-700 dark:text-white">
+              <h2 className="lg:text-4xl font-normal mb-2 text-gray-700 dark:text-white">
                 Let's chat.<br></br> Tell me about your project.
               </h2>
-              <p className="text-gray-600 mb-8 dark:text-white">
+              <p className="text-gray-600 mb-6 dark:text-white">
                 Let's create something together.
               </p>
               <div className="pt-4">
-                <p className="uppercase font-bold tracking-widest text-[#4169e1]">
+                <p className="uppercase font-bold tracking-widest text-gray-600">
                   connect with me.
                 </p>
-                <div className="flex items-center justify-start my-4 w-full ">
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
+                <div className="my-4">
+                  <div className="flex items-center gap-5 mb-4">
+                    <FaPhone />
+                    <p className="text-gray-600">+233 557 569 078</p>
                   </div>
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub className="" />
-                  </div>
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaTwitter className="text-blue" />
-                  </div>
-                  <div className="rounded-full shadow-lg dark:shadow-md shadow-gray-400 p-3 mr-8 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="flex items-center gap-5 mb-4">
                     <AiOutlineMail />
+                    <p className="text-gray-600">godfrednai@gmail.com</p>
+                  </div>
+                  <div className="flex items-center gap-5 mb-4">
+                    <FaLocationArrow />
+                    <p className="text-gray-600">Accra, Ghana</p>
+                  </div>
+                  <div className="flex items-center gap-5 mb-4">
+                    <FaInstagram />
+                    <p className="text-gray-600">yo.freddie</p>
                   </div>
                 </div>
               </div>
@@ -57,7 +67,7 @@ function Contact() {
                 />
                 <label
                   htmlFor="name"
-                  className="font-semibold text-gray-600 dark:text-white">
+                  className="font-normal text-gray-600 dark:text-white">
                   Name
                 </label>
                 <input
@@ -71,7 +81,7 @@ function Contact() {
                 />
                 <label
                   htmlFor="email"
-                  className="font-semibold text-gray-600 dark:text-white">
+                  className="font-normal text-gray-600 dark:text-white">
                   E-mail
                 </label>
                 <input
@@ -85,7 +95,7 @@ function Contact() {
                 />
                 <label
                   htmlFor="message"
-                  className="font-semibold text-gray-600 dark:text-white">
+                  className="font-normal text-gray-600 dark:text-white">
                   Message
                 </label>
                 <textarea

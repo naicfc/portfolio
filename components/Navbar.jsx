@@ -51,11 +51,11 @@ const Navbar = () => {
             <Link href="/#services">
               <li className="nav-link">Services</li>
             </Link>
-            <Link href="/#skills">
-              <li className="nav-link">Skills</li>
-            </Link>
             <Link href="/#projects">
               <li className="nav-link">Projects</li>
+            </Link>
+            <Link href="/#skills">
+              <li className="nav-link">Skills</li>
             </Link>
             <Link href="/#contact">
               <li className="nav-link">Contact</li>
@@ -67,7 +67,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div onClick={handleNav} className=" md:hidden cursor-pointer">
-            <AiOutlineMenu size={25} className="dark:text-white"/>
+            <AiOutlineMenu size={25} className="dark:text-white" />
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
           <div className="py-4 flex-col">
             <ul className="uppercase">
               <li onClick={() => setNav(false)} className="cursor-default">
-                  {mounted && <ThemeButton/>}
+                {mounted && <ThemeButton />}
               </li>
               <Link href="/">
                 <li
@@ -115,7 +115,7 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/#skills">
+              <Link href="/#about">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm dark:text-white">
@@ -126,7 +126,7 @@ const Navbar = () => {
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm dark:text-white">
-                  Services
+                  services
                 </li>
               </Link>
               <Link href="/#projects">
@@ -134,6 +134,13 @@ const Navbar = () => {
                   onClick={() => setNav(false)}
                   className="py-4 text-sm dark:text-white">
                   Projects
+                </li>
+              </Link>
+              <Link href="/#skills">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm dark:text-white">
+                  Skills
                 </li>
               </Link>
               <Link href="/#contact">

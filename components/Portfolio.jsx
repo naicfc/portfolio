@@ -14,7 +14,7 @@ const Portfolio = () => {
       id="projects"
       className="min-h-screen px-8 lg:px-32 py-8 dark:bg-[#102A43]">
       <div className="text-center">
-        <p className="text-xl tracking-widest uppercase font-semibold text-[#4169e1] dark:text-white  mb-4">
+        <p className="text-xl tracking-widest uppercase font-semibold text-gray-700 dark:text-white  mb-4">
           Projects
         </p>
         <p className="text-gray-600 text-center mb-8 dark:text-white">
