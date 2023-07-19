@@ -1,8 +1,6 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import {
-  FaTwitter,
-  FaGithub,
   FaPhone,
   FaLocationArrow,
   FaInstagram,
