@@ -1,6 +1,5 @@
 import React from "react";
 import PortfolioItem from "./PortfolioItem";
-import Image from "next/image";
 import project1 from "../public/assets/projects/web1.png";
 import project2 from "../public/assets/projects/web4.png";
 import project3 from "../public/assets/projects/web6.png";

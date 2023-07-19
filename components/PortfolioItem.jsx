@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import web1 from "../public/assets/projects/project4.jpg";
 
 const PortfolioItem = ({ image, title }) => {
   return (
