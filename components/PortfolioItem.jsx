@@ -14,7 +14,7 @@ const PortfolioItem = ({ image, title }) => {
               {title}
             </h2>
             <a>
-              <p className="project-cat cursor-pointer py-2 px-3 text-sm">
+              <p className="inline text-white cursor-pointer py-2 text-sm hover:text-base hover:text-[#4169e1] duration-300">
                 View Project
               </p>
             </a>
