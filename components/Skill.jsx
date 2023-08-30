@@ -1,10 +1,11 @@
 import React from "react";
+import SkillItem from "./SkillItem";
 
 function Skill() {
   return (
     <div
       id="skills"
-      className="w-full px-8 lg:px-32  py-16 dark:bg-[#102A43] bg-[#e3e6f0]">
+      className="w-full px-8 lg:px-32 xl:px-48  py-16 dark:bg-[#102A43] bg-[#e3e6f0]">
       <div className="text-center">
         <p className="text-xl tracking-widest uppercase font-semibold text-gray-700 dark:text-white  mb-2">
           Skill Stack
@@ -13,21 +14,21 @@ function Skill() {
           The projects above were built with the following stack.
         </p>
       </div>
-      <div className="max-w-[1240px] grid xl:grid grid-cols-4 md:grid-cols-7 grid-rows-2 gap-12">
-        <img className=" w-12 h-auto" src="/assets/skills/html.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/figma.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/express.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/next-js.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/react.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/tailwind.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/node.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/css.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/flutter.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/javascript.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/github.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/firebase.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/sass.svg" />
-        <img className=" w-12 h-auto" src="/assets/skills/postman.svg" />
+      <div className="max-w-[1240px] flex flex-wrap gap-4 items-center justify-center">
+        <SkillItem imageUrl={"/assets/skills/html.svg"} />
+        <SkillItem imageUrl={"/assets/skills/figma.svg"} />
+        <SkillItem imageUrl={"/assets/skills/express.svg"} />
+        <SkillItem imageUrl={"/assets/skills/next-js.svg"} />
+        <SkillItem imageUrl={"/assets/skills/react.svg"} />
+        <SkillItem imageUrl={"/assets/skills/tailwind.svg"} />
+        <SkillItem imageUrl={"/assets/skills/node.svg"} />
+        <SkillItem imageUrl={"/assets/skills/css.svg"} />
+        <SkillItem imageUrl={"/assets/skills/flutter.svg"} />
+        <SkillItem imageUrl={"/assets/skills/javascript.svg"} />
+        <SkillItem imageUrl={"/assets/skills/github.svg"} />
+        <SkillItem imageUrl={"/assets/skills/firebase.svg"} />
+        <SkillItem imageUrl={"/assets/skills/sass.svg"} />
+        <SkillItem imageUrl={"/assets/skills/postman.svg"} />
       </div>
     </div>
   );
