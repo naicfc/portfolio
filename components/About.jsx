@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profile from "../public/assets/dev-ed-wave.png";
+import profile from "../public/assets/about.png";
 
 const Resume = () => {
 
@@ -10,7 +10,7 @@ const Resume = () => {
   return (
     <div
       id="about"
-      className="lg:h-screen w-full flex flex-col md:flex-row gap-12 items-center justify-center py-16 px-8 lg:px-32 dark:bg-[#102A43]">
+      className="lg:h-screen w-full flex flex-col md:flex-row gap-12 items-center justify-center py-16 px-8 lg:px-32 xl:px-48 dark:bg-[#102A43]">
       <div className="w-full items-center">
         <Image src={profile} alt="" />
       </div>
