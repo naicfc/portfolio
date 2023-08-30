@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div
       id="projects"
-      className="min-h-screen px-8 lg:px-32 py-8 dark:bg-[#102A43] flex flex-col justify-center items-center">
+      className="min-h-screen px-8 lg:px-32 xl:px-48 py-8 dark:bg-[#102A43] flex flex-col justify-center items-center">
       <div>
         <div className="text-center">
           <p className="text-xl tracking-widest uppercase font-semibold text-gray-700 dark:text-white  mb-4">
