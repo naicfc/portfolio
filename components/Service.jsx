@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <div
       id="services"
-      className="md:h-screen px-8 lg:px-32 py-8 dark:bg-[#102A43] bg-[#e3e6f0] flex flex-col justify-center items-center">
+      className="md:h-screen px-8 lg:px-32 xl:px-48 py-8 dark:bg-[#102A43]  flex flex-col justify-center items-center">
       <div className="">
         <div className="text-center">
           <p className="text-xl tracking-widest uppercase font-semibold text-gray-700 dark:text-white  mb-8">
@@ -14,8 +14,8 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="p-4 bg-slate-300">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="p-4 bg-[#cfd6da]">
             <BsLaptop size={30} />
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Web Design
@@ -25,7 +25,7 @@ const Service = () => {
               functionality for an impactful online presence.
             </p>
           </div>
-          <div className="p-4 bg-slate-300">
+          <div className="p-4 bg-[#cfd6da]">
             <FaCode size={30} />
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Front-end Development
@@ -35,7 +35,7 @@ const Service = () => {
               for seamless user experiences.
             </p>
           </div>
-          <div className="p-4 bg-slate-300">
+          <div className="p-4 bg-[#cfd6da]">
             <FaCodepen size={30} />
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               UI/UX Design
@@ -45,7 +45,7 @@ const Service = () => {
               interfaces for optional engagement.
             </p>
           </div>
-          <div className="p-4 bg-slate-300">
+          <div className="p-4 bg-[#cfd6da]">
             <FaMobile size={30} />
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Mobile Applications
@@ -55,7 +55,7 @@ const Service = () => {
               deliver exceptional digital solutions.
             </p>
           </div>
-          <div className="p-4 bg-slate-300">
+          <div className="p-4 bg-[#cfd6da]">
             <FaLaptopCode size={30} />
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Full-Stack Development
@@ -65,7 +65,7 @@ const Service = () => {
               experiences and effective online presence.
             </p>
           </div>
-          <div className="p-4 bg-slate-300">
+          <div className="p-4 bg-[#cfd6da]">
             <BsHeadset size={30} />
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               IT Support
