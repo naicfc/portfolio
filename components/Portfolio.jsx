@@ -6,6 +6,7 @@ import project3 from "../public/assets/projects/web6.png";
 import project4 from "../public/assets/projects/web5.png";
 import project5 from "../public/assets/projects/project5.jpg";
 import project6 from "../public/assets/projects/project6.jpg";
+import egsi from "../public/assets/projects/egsi.png"
 
 const Portfolio = () => {
   return (
@@ -22,8 +23,13 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
-          <PortfolioItem image={project1} title="EGS International" />
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+          <PortfolioItem
+            image={egsi}
+            title="EGS International"
+            live="https://egsi.ngo"
+            github="https://github.com/naicfc/egsi"
+          />
           <PortfolioItem image={project2} title="RENT - UP" />
           <PortfolioItem image={project3} title="project 3" />
           <PortfolioItem image={project4} title="project 4" />
