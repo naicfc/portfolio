@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="w-full py-16 pt-20 px-8 lg:px-32 dark:bg-[#102A43] dark:text-white">
+      className="w-full py-16 pt-20 px-8 lg:px-32 xl:px-48 dark:bg-[#102A43] dark:text-white">
       <div className="max-w-[1240px] m-auto w-full">
         <p className="text-xl mb-2 tracking-widest uppercase font-semibold text-gray-700 text-center dark:text-white">
           Contact
@@ -28,25 +28,31 @@ function Contact() {
                 Let's create something together.
               </p>
               <div className="pt-4">
-                <p className="uppercase font-bold tracking-widest text-gray-600">
+                <p className="uppercase font-bold tracking-widest text-gray-600 dark:text-white">
                   connect with me.
                 </p>
                 <div className="my-4">
                   <div className="flex items-center gap-5 mb-4">
                     <FaPhone />
-                    <p className="text-gray-600">+233 557 569 078</p>
+                    <p className="text-gray-600 dark:text-white">
+                      +233 557 569 078
+                    </p>
                   </div>
                   <div className="flex items-center gap-5 mb-4">
                     <AiOutlineMail />
-                    <p className="text-gray-600">godfrednai@gmail.com</p>
+                    <p className="text-gray-600 dark:text-white">
+                      godfrednai@gmail.com
+                    </p>
                   </div>
                   <div className="flex items-center gap-5 mb-4">
                     <FaLocationArrow />
-                    <p className="text-gray-600">Accra, Ghana</p>
+                    <p className="text-gray-600 dark:text-white">
+                      Accra, Ghana
+                    </p>
                   </div>
                   <div className="flex items-center gap-5 mb-4">
                     <FaInstagram />
-                    <p className="text-gray-600">yo.freddie</p>
+                    <p className="text-gray-600 dark:text-white">yo.freddie</p>
                   </div>
                 </div>
               </div>
