@@ -5,7 +5,7 @@ function Skill() {
   return (
     <div
       id="skills"
-      className="w-full px-8 lg:px-32 xl:px-48  py-16 dark:bg-[#102A43] bg-[#e3e6f0]">
+      className="w-full px-8 lg:px-32 xl:px-48  py-32 dark:bg-[#102A43] bg-[#e3e6f0]">
       <div className="text-center">
         <p className="text-xl tracking-widest uppercase font-semibold text-gray-700 dark:text-white  mb-2">
           Skill Stack
