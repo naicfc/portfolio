@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <div
       id="services"
-      className="md:h-screen px-8 lg:px-32 xl:px-48 py-8 dark:bg-[#102A43]  flex flex-col justify-center items-center">
+      className="md:h-screen px-8 lg:px-32 xl:px-48 py-8 dark:bg-[#102A43] bg-[#e3e6f0] flex flex-col justify-center items-center">
       <div className="">
         <div className="text-center">
           <p className="text-xl tracking-widest uppercase font-semibold text-gray-700 dark:text-white  mb-8">
@@ -14,9 +14,11 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <div className="p-4 bg-[#cfd6da]">
-            <BsLaptop size={30} />
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 xl:px-16">
+          <div className="p-4 px-4 py-6 bg-[#ecf0f3] text-center">
+            <div className="flex justify-center">
+              <BsLaptop size={30} />
+            </div>
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Web Design
             </h3>
@@ -25,8 +27,10 @@ const Service = () => {
               functionality for an impactful online presence.
             </p>
           </div>
-          <div className="p-4 bg-[#cfd6da]">
-            <FaCode size={30} />
+          <div className="px-4 py-6 bg-[#ecf0f3] text-center">
+            <div className="flex justify-center">
+              <FaCode size={30} />
+            </div>
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Front-end Development
             </h3>
@@ -35,8 +39,10 @@ const Service = () => {
               for seamless user experiences.
             </p>
           </div>
-          <div className="p-4 bg-[#cfd6da]">
-            <FaCodepen size={30} />
+          <div className="px-4 py-6 bg-[#ecf0f3] text-center">
+            <div className="flex justify-center">
+              <FaCodepen size={30} />
+            </div>
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               UI/UX Design
             </h3>
@@ -45,8 +51,10 @@ const Service = () => {
               interfaces for optional engagement.
             </p>
           </div>
-          <div className="p-4 bg-[#cfd6da]">
-            <FaMobile size={30} />
+          <div className="px-4 py-6 bg-[#ecf0f3] text-center">
+            <div className="flex justify-center">
+              <FaMobile size={30} />
+            </div>
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Mobile Applications
             </h3>
@@ -55,8 +63,10 @@ const Service = () => {
               deliver exceptional digital solutions.
             </p>
           </div>
-          <div className="p-4 bg-[#cfd6da]">
-            <FaLaptopCode size={30} />
+          <div className="px-4 py-6 bg-[#ecf0f3] text-center">
+            <div className="flex justify-center">
+              <FaLaptopCode size={30} />
+            </div>
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               Full-Stack Development
             </h3>
@@ -65,8 +75,10 @@ const Service = () => {
               experiences and effective online presence.
             </p>
           </div>
-          <div className="p-4 bg-[#cfd6da]">
-            <BsHeadset size={30} />
+          <div className="px-4 py-6 bg-[#ecf0f3] text-center">
+            <div className="flex justify-center">
+              <BsHeadset size={30} />
+            </div>
             <h3 className="font-bold tracking-wide text-gray-700 pt-2 pb-1 uppercase">
               IT Support
             </h3>
