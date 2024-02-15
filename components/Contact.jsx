@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="w-full py-16 pt-20 px-8 lg:px-32 xl:px-48 dark:bg-[#102A43] dark:text-white">
+      className="w-full py-16 pt-20 px-8 lg:px-32  dark:bg-[#102A43] dark:text-white">
       <div className="max-w-[1240px] m-auto w-full">
         <p className="text-xl mb-2 tracking-widest uppercase font-semibold text-gray-700 text-center dark:text-white">
           Contact

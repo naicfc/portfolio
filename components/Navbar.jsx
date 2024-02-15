@@ -31,8 +31,8 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-16 shadow-xl z-[100] py-8 px-8 lg:px-32 bg-[#ecf0f3] dark:bg-[#031629]"
-          : "fixed w-full h-16 z-[100] py-8 px-8 lg:px-32 "
+          ? "fixed w-full h-16 shadow z-[100] py-8 px-8 lg:px-32 bg-[#ecf0f3] dark:bg-[#031629] transition-all duration-500"
+          : "fixed w-full h-16 z-[100] py-8 px-8 lg:px-32 transition-all duration-500"
       }>
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <Link href="/">
@@ -67,6 +67,18 @@ const Navbar = () => {
           <div onClick={handleNav} className=" md:hidden cursor-pointer">
             <AiOutlineMenu size={25} className="dark:text-white" />
           </div>
+        </div>
+        <div className="hidden md:block">
+          {" "}
+          <a>
+            <button
+              className="cursor-pointer py-2 px-4 shadow-none rounded-full text-xs
+            font-semibold hover:bg-[#2651d3] bg-[#4169e1] ease-in duration-200
+            tracking-wide">
+              {" "}
+              Contact Me
+            </button>
+          </a>
         </div>
       </div>
 
