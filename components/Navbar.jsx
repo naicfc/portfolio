@@ -34,7 +34,7 @@ const Navbar = () => {
           ? "fixed w-full h-16 shadow z-[100] py-8 px-8 lg:px-32 bg-[#ecf0f3] dark:bg-[#031629] transition-all duration-500"
           : "fixed w-full h-16 z-[100] py-8 px-8 lg:px-32 transition-all duration-500"
       }>
-      <div className="flex justify-between items-center w-full h-full 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full ">
         <Link href="/">
           <div className="font-semibold text-2xl dark:text-white">Nai.</div>
         </Link>
